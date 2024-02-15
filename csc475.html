@@ -1,3 +1,41 @@
 <h1>Senior Seminar Project Proposal</h1>
 <h2>Furman Now App Renovations</h2>
-
+<h3>1 Proposal</h3>
+<h4>1.1 Background</h4>
+In 2020 and 2021, Professor Bryan Catron worked with 4 students to develop both an iOS and
+Android mobile application entitled "Furman Now!”, intended to collate various important links,
+events, contacts, news, and other information related to the University. [1] However, due to iOS API
+changes, revisions to the Furman University websites, and a variety of other factors, the iOS app has
+been removed from the app store and various web scrappers have stopped working. Additionally,
+design on the app, already dated when it was created, has only continued to age.
+<h4>1.2 Goal</h4>
+The goals for this project can be divided into three key sections:
+<br>1. Restoration: The first priority of the project is restoring data streams to working conditions
+by rewriting the web scrapers that were built in 2020 and 2021. Part of this will include
+bringing the codebase more into line with "clean code" standards, including more abstraction,
+decoupling, and standardization of the code to updates or adding additional schedules easier
+in the future. Currently a variety of information is scrapped from the web, including:
+<ul>
+ <li>Athletic game dates, times, locations, and scores upon completion. </li>
+ <li>University-wide calendar events.</li>
+ <li>Location data and estimated times of arrival for the Greenville 503 bus, which has an
+on-campus stop, and the on-campus shuttle. </li>
+ <li>Hours of operations for various on-campus locations such as Trone, the PAC, restaurants, and the Duke Library. </li>
+ <li>Daily menus at the various stations of the Dining Hall.</li>
+ <li>Campus weather.</li>
+<ul>
+As part of these edits, I will aim to improve stability of all web information access
+systems to implement better logging systems, automatically monitor the status of scrapers
+to provide some sort of indication when one is broken, and decouple parts of the
+code so that one website being changed does not cause the whole script to break. Of
+high priority is ensuring that information related to communal transportation remains
+readily accessible, particularly with regards to the on-campus shuttle; not only do
+app users report regularly using that feature to know when it will be arriving, there are
+also potential health and environmental benefits to increasing availability of this information.
+<br>
+A previous study in Clemson indicated that knowing where transit vehicles are and
+how long it will be before they will arrive at a stop leads to more willingness to simply
+walk to the location instead of sitting around for the vehicle, somewhat increasing
+student activity. [2] Further, the same study found that increased access to transit location
+information decreased the amount of time people had to wait at stops, Additionally, other
+studies have found that increased access to data for real-time transit locations increases
