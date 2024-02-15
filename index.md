@@ -16,7 +16,7 @@ Worked with faculty advisor and other ACM board members to organize events on ca
 <br> From Jan 2022 - Present
 Assisted students in weekly lab for courses taught in Java, Python, R and MIPS. Responsible for assisting students with technological and programmatic errors, and for instruction on topics they were uncertain of.
 
-<h2>Education</h2>
+<h2>Education:</h2>
 Furman University
 <br> Bachelor of Science in Computer Science
 <br> From 2020 - 2024
