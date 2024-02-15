@@ -1,6 +1,6 @@
 <h1 align="center"><b>Michael Peeler's Profile</b></h1>
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=olive&size=25&center=true&vCenter=true&width=600&height=100&lines=Welcome+To+My+Page!;++;Computer+Science+Student,;Furman+University+Senior,;Writer,;Leader,;Researcher,;Lover+Of+Learning"></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=6CAF45FF&size=25&center=true&vCenter=true&width=600&height=100&lines=Welcome+To+My+Page!;++;Computer+Science+Student,;Furman+University+Senior,;Writer,;Leader,;Researcher,;Lover+Of+Learning"></a>
 </p>
 <br>
 <h2>Experience:</h2>
