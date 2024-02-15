@@ -10,7 +10,8 @@ been removed from the app store and various web scrappers have stopped working. 
 design on the app, already dated when it was created, has only continued to age.
 <h4>1.2 Goal</h4>
 The goals for this project can be divided into three key sections:
-<br>1. Restoration: The first priority of the project is restoring data streams to working conditions
+<ol>
+<li>Restoration:</li> The first priority of the project is restoring data streams to working conditions
 by rewriting the web scrapers that were built in 2020 and 2021. Part of this will include
 bringing the codebase more into line with "clean code" standards, including more abstraction,
 decoupling, and standardization of the code to updates or adding additional schedules easier
@@ -23,7 +24,7 @@ on-campus stop, and the on-campus shuttle. </li>
  <li>Hours of operations for various on-campus locations such as Trone, the PAC, restaurants, and the Duke Library. </li>
  <li>Daily menus at the various stations of the Dining Hall.</li>
  <li>Campus weather.</li>
-<ul>
+</ul>
 As part of these edits, I will aim to improve stability of all web information access
 systems to implement better logging systems, automatically monitor the status of scrapers
 to provide some sort of indication when one is broken, and decouple parts of the
@@ -39,3 +40,71 @@ walk to the location instead of sitting around for the vehicle, somewhat increas
 student activity. [2] Further, the same study found that increased access to transit location
 information decreased the amount of time people had to wait at stops, Additionally, other
 studies have found that increased access to data for real-time transit locations increases
+idership, perceived security, and satisfaction with the ride. [3 ] By ensuring reliable access
+to this information, we can hopefully enable students to continue reducing reliance on
+driving to classes, improving both carbon footprint and student health.
+In improving this code base, we can also add more features in, like hours for the
+other on-campus libraries, or links to appointment scheduling at the Writing and Media Lab,
+the Counseling Center, or other on-campus locations. We can also improve database designs
+to make the more robust to handling of things like non-continuous hours of service (e.x.
+9-11 am and 1-3pm), descriptions, or other information student may want from the data
+source.
+ <li>Redesign:</li> Redesigning the app would be carried out by an app-wide rewrite, porting it into
+the React Native framework and incorporating in design changes to make the app more
+consistent across the various pages. Part of this will include reaching out to the Digital
+Art department or the Communications department and attempting to collaborate with an
+interested student to develop a consistent brand, app style, and logo for the app. This will
+be a primarily-front end job. However, while migrating the app to a new framework, we
+could potentially add in features such a push notifications, which would allow students to
+opt in to alerts, such as new stories being posted to one of the campus news sources. After
+communicating with the professor in charge of digital art, I’ve reached out to Grace Houser,
+who has expressed an interest in working with me to do this design work.
+ <li>Expansion:</li> Web scraping also enables the potential for incorporating more news feed
+information into the app if the groups who made it consent, including:
+ <ul>
+  <li>The Paladin, the campus’ student-run newspaper. </li>
+  <li>The Echo, a student-run art magazine of including poetry, visual art and creative prose. </li>
+  <li>The Furman Humanities Review, an annual publication of writings from students in the
+Humanities at Furman.</li>
+  <li>Furman University News Channel, also known as FUNC, a student-produced news
+station that produces video content about ongoings of campus life. </li>
+  <li>Christo et Doctrinae, a student-run journal of Christian life on campus, which includes
+various writings, poetry, and art. </li>
+  <li>Furman News, a stream of news stories from outside campus, collated by the  Office of Communications, that would let students see how Furman is making real-world
+impacts.</li>
+  <li>The President’s Page, which posts official communications from President Davis to the
+university.</li>
+  <li>Furman University’s Youtube, which posts videos about things that have occured at the
+school.</li>
+ </ul>
+This collation of news into a unified, easily accessible place could help make Furman Now a
+hub for information about the ongoing events on campus, and make students more aware
+of the existence of these various parts of university life. We could also do some sort of
+auto-generated "news roundup" each week, or let students opt in to receive push notifications
+when new information is released. I have already recieved support from The Paladin, which
+oversees The Echo as well, the Office of Communications, and Christo et Doctrinae for
+sharing their content. Other potential new features could be integration of the Furman Staff
+directory into the app so students could use it to search for contact information such as
+emails or phone numbers.
+</ol>
+<h4>1.3 Data</h4>
+Most of the data from this project will fall under the various different web scrapers that will collect
+information for the app that fall into the categories listed above. This will be personally collected by
+me and the scripts that I am writing from the various live sources of information on the web.
+<h4>1.4 Methods</h4>
+I plan to re-develop the app into a unified React Native framework, which will allow it to be built
+using JavaScript. [4] Web scraping is currently run by a series of Python scripts, which are locatedon the Furman Computer Science server and are run on a CRON on a variety of different schedules.
+Database content is also stores on the CS server, and would continue to be the key way for the web
+scraping to interact with the app. Most data is collected either daily (for things like food menus or
+events) or weekly (for hours of operations); location data for transit is collected every 20 seconds.
+<h4>1.5 Evaluation</h4>
+The project should be evaluated for success primarily on the basis of the ported app being usable, the
+information in it being accurate, up-to-date, and stably collected, and the new designs and features
+being added in an understandable manner.
+<h4>1.6 Dissemination<h4>
+In making this project useful to others, it would be great to have some sort of small advertising
+campaign to inform students of it’s existence, whether by putting up posters, giving out stickers
+like was done when it was first released, or having some sort of tabling to inform people of it being
+out. I aim to have the app demonstrable at Furman Engaged, so that people who are there for my
+presentation can download it and begin to use the features.
+
