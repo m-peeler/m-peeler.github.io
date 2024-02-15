@@ -35,4 +35,5 @@ Furman University
 
 <h2>Important Links:</h2>
 [GitHub](https://github.io/m-peeler)
+
 [LinkedIn](https://www.linkedin.com/in/m-peeler)
