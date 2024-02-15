@@ -18,5 +18,5 @@ Assisted students in weekly lab for courses taught in Java, Python, R and MIPS. 
 
 <h2>Education</h2>
 Furman University
-<br> Bachelor of Science - BS Computer Science
+<br> Bachelor of Science in Computer Science
 <br> From 2020 - 2024
