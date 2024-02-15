@@ -2,7 +2,6 @@
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=olive&size=25&center=true&vCenter=true&width=600&height=100&lines=Welcome+To+My+Page!;++;Computer+Science+Student,;Furman+University+Senior,;Writer,;Leader,;Researcher,;Lover+Of+Learning"></a>
 </p>
-
 <br>
 <h2>Experience:</h2>
 - **President of Association for Computing Machinery Chapter** @ Furman University <br>
@@ -20,3 +19,20 @@ Assisted students in weekly lab for courses taught in Java, Python, R and MIPS. 
 Furman University
 <br> Bachelor of Science in Computer Science
 <br> From 2020 - 2024
+
+<h2>Skills:</h2>
+- Python
+- Java
+- Teaching
+- Coding
+- Communication
+- R
+- SQL
+- GIS/ArcGIS
+- Statistics
+- Data Mining
+- Writing
+
+<h2>Important Links:</h2>
+[GitHub](https://github.io/m-peeler)
+[LinkedIn](https://www.linkedin.com/in/m-peeler)
